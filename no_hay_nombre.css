@@ -178,19 +178,18 @@ body {
     width: 100%;             
     max-width: 1200px;       
     padding: 0 15px;         
-    margin-top: 150px;       /* Reducido para que no empuje tanto hacia el pie */
+    margin-top: 150px;       
     margin-bottom: 200px;
-
-  /* Agrega estas tres líneas críticas: */
-  width: 100%;             /* Fuerza a la sección a usar todo el ancho de la pantalla */
-  max-width: 1200px;       /* Evita que en pantallas gigantes las tarjetas se estiren demasiado */
-  padding: 0 15px; 
+    width: 100%;             
+    max-width: 1200px;       
+    padding: 0 15px; 
   }
   .pie2     
-  {position: absolute; /* Cambia de fixed a absolute */
-    top: calc(120px + 300px + 250px + 80px); /* Suma matemática exacta de alturas */
+  {position: absolute; 
+    top: calc(120px + 300px + 250px + 80px); 
     left: 0;
     width: 100%;
     background: linear-gradient(to right, black 50%, rgb(175, 6, 6) 50%);
     padding: 15px 0;
-    text-align: left;}
+    text-align: left;
+}
