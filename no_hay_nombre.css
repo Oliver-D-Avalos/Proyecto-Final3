@@ -1,0 +1,166 @@
+
+.bg-light-gray {
+    background: linear-gradient(to right, black 50%, rgb(175, 6, 6) 50%);
+ }
+.project-card {
+    margin-bottom: 30px;
+    transition: transform 0.3s;
+ }
+.project-card:hover {
+    transform: translateY(-10px);
+ }
+.skill-item {
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+ }
+.header-section {
+    background-color: #6c757d;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+ }
+.contact-info {
+    border-left: 3px solid #fd0d0d;
+    padding-left: 20px;
+    margin: 20px 0;
+        }
+titulo {
+    color: rgb(175, 5, 5) !important
+}
+.body1 {
+    background: #000000;
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.section {
+    padding: 150px 0;
+}
+.alinear {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    min-height: 80vh;       
+    width: 100%;
+    position: relative;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(to right, black 50%, rgb(175, 6, 6) 50%);
+}
+.img1 {
+  box-shadow: 15px 15px 15px rgb(17, 16, 16);
+}
+.flotante {
+    float: right; 
+    margin-right: 15px; 
+    margin-bottom: 10px; 
+    max-width: 300px; 
+    height: auto; 
+}
+.relative  {
+    position: relative;
+    display: inline-block; 
+}
+
+
+.relative img {
+    display: block;
+    max-width: 100%; 
+    height: auto;
+}
+
+.quien_soy {
+    position: absolute;
+  top: 90px;         
+  left: 15%;
+  transform: translateX(-50%); 
+  margin-top: 0px;
+  margin-bottom: 120px;
+  color: #fffefe;
+}
+
+.Historia{
+    position: absolute;
+  top: 120px;         
+  left: 43%;
+  transform: translateX(-50%); 
+  margin-top: 0px;
+  margin-bottom: 120px;
+  color: #fffefe;
+  }
+  .Justificado{
+      text-align: justify;
+  text-justify: inter-word;
+  }
+
+  .Estudios{
+    position: absolute;
+  top: 80px;         
+  left: 80%;
+  transform: translateX(-50%); 
+  margin-top: 0px;
+  margin-bottom: 120px;
+  color: #fffefe;
+  }
+  .habilidades{
+    position: absolute;
+  top: 140px;         
+  left: 80%;
+  transform: translateX(-50%); 
+  margin-top: 0px;
+  margin-bottom: 120px;
+  color: #fffefe;
+  }
+  .contacto {
+    position: absolute;
+  top: 110px;         
+  left: 15%;
+  transform: translateX(-50%); 
+  margin-top: 0px;
+  margin-bottom: 120px;
+  color: #fffefe;
+}
+.Formulario {
+     position: absolute;
+  top: 90px;         
+  left: 75%;
+  transform: translateX(-50%); 
+  margin-top: 0px;
+  margin-bottom: 120px;
+  color: #fffefe;
+}
+.proyectos{
+   position: absolute;
+  top: 90px;         
+  left: 50%;
+  transform: translateX(-50%); 
+  margin-top: 0px;
+  margin-bottom: 120px;
+  color: #fffefe;
+}
+.etiqueta{
+    background-color: #000000c0;
+    border-color: #000000c0;
+}
+.DH{
+    position: absolute;
+  top: 195px;         
+  left:50%;
+  transform: translateX(-50%); 
+  margin-top: 0px;
+  margin-bottom: 120px;
+  color: #fffefe;
+  }
+.centrado{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
